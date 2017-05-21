@@ -1,7 +1,8 @@
-package home
+package com.raqun.hilo.home
 
-import BaseActivity
+import com.raqun.hilo.BaseActivity
 import android.os.Bundle
+import com.raqun.hilo.Constants
 import com.raqun.hilo.R
 
 /**

@@ -1,11 +1,11 @@
+package com.raqun.hilo
+
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.support.annotation.LayoutRes
 import android.support.annotation.MenuRes
 import android.support.annotation.StringRes
-import android.support.v7.app.ActionBar
 import android.support.v7.app.AppCompatActivity
-import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
 
