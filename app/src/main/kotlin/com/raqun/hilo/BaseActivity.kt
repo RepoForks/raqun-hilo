@@ -13,8 +13,8 @@ import android.view.MenuItem
  * Created by tyln on 21/05/2017.
  */
 abstract class BaseActivity : AppCompatActivity() {
-    var NAVIGATION_TYPE_ROOT: Int = 0
-    var NAVIGATION_TYPE_BACK: Int = 1
+    val NAVIGATION_TYPE_ROOT: Int = 0
+    val NAVIGATION_TYPE_BACK: Int = 1
 
     @LayoutRes
     protected abstract fun getLayoutRes(): Int

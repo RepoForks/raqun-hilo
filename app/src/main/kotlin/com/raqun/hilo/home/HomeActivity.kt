@@ -4,6 +4,8 @@ import com.raqun.hilo.BaseActivity
 import android.os.Bundle
 import com.raqun.hilo.Constants
 import com.raqun.hilo.R
+import com.raqun.hilo.data.Card
+import com.raqun.hilo.data.Colors
 
 /**
  * Created by tyln on 21/05/2017.
