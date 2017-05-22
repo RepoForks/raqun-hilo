@@ -7,23 +7,26 @@ The goal of this project is understading the fundementals of KOTLIN, the new off
 ## What's KOTLIN?
 https://kotlinlang.org/
 
-### Fundementals Implemented in this project so far:
+### KOTLIN Fundementals Implemented So Far:
 
-1- Defining functions <br>
+1- Defining Functions: <br>
 https://kotlinlang.org/docs/reference/basic-syntax.html#defining-functions
 <br><br>
-2- Null Safety <br>
+2- Control Flow: <br>
+https://kotlinlang.org/docs/reference/control-flow.html#control-flow
+<br><br>
+3- Null Safety <br>
 https://kotlinlang.org/docs/reference/null-safety.html
 <br><br>
-3- Data Class <br>
+4- Data Class <br>
 https://kotlinlang.org/docs/reference/data-classes.html
 <br><br>
-4- Enum Classes <br>
+5- Enum Classes <br>
 https://kotlinlang.org/docs/reference/enum-classes.html#enum-classes
 <br><br>
-5- Constructors <br>
+6- Constructors <br>
 https://kotlinlang.org/docs/reference/classes.html#constructors
 <br><br>
-6- Abstract Classes <br>
+7- Abstract Classes <br>
 https://kotlinlang.org/docs/reference/classes.html#abstract-classes
 <br><br>
