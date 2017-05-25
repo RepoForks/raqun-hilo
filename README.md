@@ -30,3 +30,6 @@ https://kotlinlang.org/docs/reference/classes.html#constructors
 7- Abstract Classes <br>
 https://kotlinlang.org/docs/reference/classes.html#abstract-classes
 <br><br>
+8- Inner Class <br>
+https://kotlinlang.org/docs/reference/nested-classes.html#inner-classes
+<br><br>
