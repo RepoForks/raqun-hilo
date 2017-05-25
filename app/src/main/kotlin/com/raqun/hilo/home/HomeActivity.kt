@@ -1,7 +1,11 @@
 package com.raqun.hilo.home
 
+import android.content.Context
+import android.content.Intent
 import com.raqun.hilo.BaseActivity
 import android.os.Bundle
+import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
 import com.raqun.hilo.Constants
 import com.raqun.hilo.R
 
@@ -29,5 +33,12 @@ class HomeActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val cards: RecyclerView = findViewById(R.id.cards) as RecyclerView
+
+        val layoutManager: LinearLayoutManager = LinearLayoutManager(this)
+        layoutManager.orientation = LinearLayoutManager.VERTICAL
+
+        cards.layoutManager = layoutManager
+        cards.setHasFixedSize(true)
     }
 }

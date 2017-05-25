@@ -27,8 +27,8 @@ abstract class BaseActivity : AppCompatActivity() {
 
     protected abstract fun getNavigationType(): Int
 
-    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
-        super.onCreate(savedInstanceState, persistentState)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         setContentView(getLayoutRes())
         setupActionBar()
     }
