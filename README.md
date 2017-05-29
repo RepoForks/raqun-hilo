@@ -15,27 +15,27 @@ https://kotlinlang.org/docs/reference/basic-syntax.html#defining-functions
 2- Control Flow: <br>
 https://kotlinlang.org/docs/reference/control-flow.html#control-flow
 <br><br>
-3- Null Safety <br>
+3- Null Safety: <br>
 https://kotlinlang.org/docs/reference/null-safety.html
 <br><br>
-4- Data Class <br>
+4- Data Class: <br>
 https://kotlinlang.org/docs/reference/data-classes.html
 <br><br>
-5- Enum Classes <br>
+5- Enum Classes: <br>
 https://kotlinlang.org/docs/reference/enum-classes.html#enum-classes
 <br><br>
-6- Constructors <br>
+6- Constructors: <br>
 https://kotlinlang.org/docs/reference/classes.html#constructors
 <br><br>
-7- Abstract Classes <br>
+7- Abstract Classes: <br>
 https://kotlinlang.org/docs/reference/classes.html#abstract-classes
 <br><br>
-8- Inner Class <br>
+8- Inner Class: <br>
 https://kotlinlang.org/docs/reference/nested-classes.html#inner-classes
 <br><br>
-9- Ranges <br>
+9- Ranges: <br>
 https://kotlinlang.org/docs/reference/ranges.html
 <br><br>
-10- Collections <br>
+10- Collections: <br>
 https://kotlinlang.org/docs/reference/collections.html
 <br><br>
