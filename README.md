@@ -36,3 +36,6 @@ https://kotlinlang.org/docs/reference/nested-classes.html#inner-classes
 9- Ranges <br>
 https://kotlinlang.org/docs/reference/ranges.html
 <br><br>
+10- Collections <br>
+https://kotlinlang.org/docs/reference/collections.html
+<br><br>
