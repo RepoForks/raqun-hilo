@@ -33,3 +33,6 @@ https://kotlinlang.org/docs/reference/classes.html#abstract-classes
 8- Inner Class <br>
 https://kotlinlang.org/docs/reference/nested-classes.html#inner-classes
 <br><br>
+9- Ranges <br>
+https://kotlinlang.org/docs/reference/ranges.html
+<br><br>
