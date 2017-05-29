@@ -13,7 +13,7 @@ import com.raqun.hilo.data.Status
 /**
  * Created by tyln on 25/05/2017.
  */
-class CardsAdapter(val items: List<Card>) : RecyclerView.Adapter<CardsAdapter.ViewHolder>() {
+class CardsAdapter(val items: MutableList<Card>) : RecyclerView.Adapter<CardsAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): ViewHolder {
         val view: View = LayoutInflater.from(parent?.context).inflate(R.layout.row_card, parent, false)

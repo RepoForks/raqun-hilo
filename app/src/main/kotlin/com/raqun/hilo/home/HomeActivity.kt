@@ -8,6 +8,10 @@ import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import com.raqun.hilo.Constants
 import com.raqun.hilo.R
+import com.raqun.hilo.data.Card
+import com.raqun.hilo.data.Status
+import com.raqun.hilo.util.CardUtil
+import java.util.*
 
 /**
  * Created by tyln on 21/05/2017.
@@ -33,12 +37,29 @@ class HomeActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val cards: RecyclerView = findViewById(R.id.cards) as RecyclerView
+        val cardsView: RecyclerView = findViewById(R.id.cards) as RecyclerView
 
         val layoutManager: LinearLayoutManager = LinearLayoutManager(this)
         layoutManager.orientation = LinearLayoutManager.VERTICAL
 
-        cards.layoutManager = layoutManager
-        cards.setHasFixedSize(true)
+        cardsView.layoutManager = layoutManager
+        cardsView.setHasFixedSize(true)
+
+        val cards: MutableList<Card> = initGameBoard();
+        val cardsAdapter: CardsAdapter = CardsAdapter(cards)
+
+        cardsView.adapter = cardsAdapter
     }
+
+    fun initGameBoard(): MutableList<Card> {
+        val cards: MutableList<Card> = arrayListOf()
+        for (i in 0..9) {
+            val card: Card = Card(CardUtil.generateRandomCardNumber(),
+                    CardUtil.generateRandomCardColor(),
+                    Status.CLOSED)
+            cards.add(card)
+        }
+        return cards
+    }
+
 }

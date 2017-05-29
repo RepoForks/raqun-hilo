@@ -7,6 +7,6 @@ package com.raqun.hilo
 class Constants private constructor() {
 
     companion object {
-        val NO_RES: Int = 0
+        const val NO_RES: Int = 0
     }
 }
