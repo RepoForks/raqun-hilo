@@ -11,7 +11,7 @@ class CardUtil private constructor() {
     companion object {
         private fun generateRandomNumber(min: Int, max: Int): Int = Random().nextInt(max - min) + min
 
-        fun generateRandomCardNumber(): Int = generateRandomNumber(13, 1)
+        fun generateRandomCardNumber(): Int = generateRandomNumber(1, 13)
 
         fun generateRandomCardColor(): Color = Color.values()[generateRandomNumber(0, 3)]
     }
